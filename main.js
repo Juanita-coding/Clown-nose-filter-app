@@ -4,7 +4,7 @@ nose_y=0;
 
 function preload()
 {
-    clown_nose='https://i.postimg.cc/tJPQJP9D/clown-nose.jpg';
+    clown_nose=loadImage('https://i.postimg.cc/tJPQJP9D/clown-nose.jpg');
 }
 
 function setup()
@@ -32,7 +32,7 @@ function draw()
 
 function take_snapshot()
 {
-    save("filter.image");
+    save("filterimage.png");
 }
 
 function gotPoses(results)
